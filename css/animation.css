@@ -17,7 +17,3 @@
 .header_status_black .header_nav-item{
     color: #fff;
 }
-/*导航变红*/
-.header_status_back .header_nav-item_status_active{
-    color: #ff0026;
-}

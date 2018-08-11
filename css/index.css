@@ -52,23 +52,6 @@
 }
 
 
-.header_nav-item_status_active{
-    color: #f01400;
-
-}
-
-/*导航条下面的红线*/
-.header_nav-tip{
-    position: absolute;
-    width: 30px;
-    height: 4px;
-    background-color: #f01400;
-    bottom: 0;
-    left: 0px;
-    margin-left: 55px;
-    transition: all .5s;
-}
-
 .header_nav-item_custom_button{
     background-color: #000;
     color: #f4f4f5;
