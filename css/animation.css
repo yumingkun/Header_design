@@ -1,0 +1,23 @@
+
+/*导航条样式动画*/
+.header{
+    transition: all 1s;
+}
+
+/*导航条下拉之后的样式*/
+.header_status_black{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:3;
+}
+.header_status_black .header_logo,
+.header_status_black .header_nav-item{
+    color: #fff;
+}
+/*导航变红*/
+.header_status_back .header_nav-item_status_active{
+    color: #ff0026;
+}
